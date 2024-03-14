@@ -1,0 +1,7 @@
+aiogram==2.19
+Django==5.0
+environs==8.0.0
+aioredis
+psycopg2-binary
+requests
+xlsxwriter
