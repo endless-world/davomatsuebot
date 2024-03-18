@@ -72,7 +72,7 @@ async def write_checked_schedule_db():
         if i % 50 == 0 and i != 0:
             print(i)
             # Pause for 15 seconds
-            time.sleep(15)
+            time.sleep(30)
 
         checked_schedules = attendance_control_list_api_call(
             ATTENDANCE_CONTROL_LIST_URL=f"{CONTROL_SCHEDULE_URL}&page={str(i+1)}")
